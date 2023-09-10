@@ -1,5 +1,6 @@
 //
 // Copyright (C) 2017-2021 The LineageOS Project
+//           (C) 2023 Paranoid Android
 //
 // SPDX-License-Identifier: Apache-2.0
 //
@@ -17,6 +18,8 @@ android_app {
     static_libs: [
         "org.lineageos.settings.resources",
         "vendor.xiaomi.hardware.motor-V1.0-java",
+        "androidx.core_core",
+        "SettingsLib",
     ],
 
     optimize: {
