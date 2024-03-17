@@ -6,3 +6,6 @@ ro.vendor.lmk.force_inkernel_lmk=true
 
 # FUSE
 persist.sys.fuse.passthrough.enable=true
+
+# Incremental FS
+ro.incremental.enable=1
