@@ -166,6 +166,7 @@ TARGET_TAP_TO_WAKE_NODE := "/sys/touchpanel/double_tap"
 TARGET_ODM_PROP += $(COMMON_PATH)/odm.prop
 TARGET_SYSTEM_PROP += $(COMMON_PATH)/system.prop
 TARGET_VENDOR_PROP += $(COMMON_PATH)/vendor.prop
+TARGET_PRODUCT_PROP += $(COMMON_PATH)/product.prop
 ifneq ($(PRODUCT_IS_TABLET),true)
 TARGET_VENDOR_PROP += $(COMMON_PATH)/vendor_phone.prop
 endif
