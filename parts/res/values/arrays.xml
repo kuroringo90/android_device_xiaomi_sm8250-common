@@ -46,6 +46,8 @@
         <item>6</item>
         <item>8</item>
         <item>10</item>
+    </string-array>
+
     <!-- Dolby Atmos -->
     <string-array name="dolby_profile_entries">
         <item>@string/dolby_profile_dynamic</item>
