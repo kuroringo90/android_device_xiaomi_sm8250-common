@@ -263,8 +263,5 @@ ro.config.vc_call_vol_steps=11
 # WiFi
 wifi.aware.interface=wifi-aware0
 
-# Multi-Gen LRU
-persist.device_config.mglru_native.lru_gen_config=core
-
 # Zygote
 zygote.critical_window.minute=10
